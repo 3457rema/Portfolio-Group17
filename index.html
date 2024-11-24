@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/79eda75342.js" crossorigin="anonymous"></script>
+        
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="images/logo.jpg.png"class="logo">
+            <ul id="sidemenu">
+<li><a href="#header">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+<i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+
+
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I’m <span>Mamrema</span> <br>Teresia Mbiu</h1>
+
+            
+            </div>
+        </div>
+    </div>
+    <!-------about------->
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/App Design - Copy.jpg">
+                </div>
+                <div class="about-col-2">  
+                    <h1 class="sub-title"></h1>About Me</h1>
+                    <p>I’m a passionate web developer dedicated to crafting functional and visually appealing web experiences.
+                         With a strong foundation in modern technologies and a keen eye for design, I strive to create intuitive websites that engage users and meet their needs.
+                          I love exploring new trends in the industry and continuously improving my skills to deliver innovative solutions. 
+                          Let’s connect and build something amazing together! Feel free to adjust any part to better fit your style!</p>
+                    
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span><br>Maintenance and Support of Websites</li>
+                                    <li><span>App Development</span><br>Data Reasearch</li>
+
+                                </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Current</span><br>Designing Web/App interfaces</li>
+                                <li><span>2021</span><br>IEBC Clerk</li>
+                                <li><span>2022</span><br>Data Collector</li>
+
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Jomo Kenyatta University of Agriculture and Technology</li>
+                            <li><span>2016</span><br>Pangani Girls High School</li>
+                            <li><span>2008</span><br>Lotima Primary</li>
+
+                        </ul>
+                </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"></h1>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        With the rise of mobile technology, having a well-designed app is essential to connect with your audience. My app design services focus on creating user-friendly, high-performance applications for iOS, Android, and cross-platform use.Collaborate to refine your app idea, defining its purpose, features, and target audience.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        My UI/UX design services focus on creating digital experiences that are both visually appealing and user-centric. I combine creativity with strategy to craft interfaces that captivate users and streamline their journey, ensuring your website or app achieves its goals effectively.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2>Maintenance and Support
+                    </h2>
+                    <p>
+                        Your website or application requires regular care to perform optimally and remain secure. I offer comprehensive maintenance and support services to ensure your digital platforms stay up-to-date, functional, and free from technical issues.
+
+                    </p>
+                </div>
+
+    </div>
+    <!------------portfolio-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"></h1>My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/App Design - Copy.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Apps that connects you to the talented people around the world.
+                            Download it from playdtore </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/Website management.jpg">
+                    <div class="layer">
+                        <h3>Website Management</h3>
+                        <p>Keep your site or app aligned with the latest technologies, trends, and best practices.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/Web design.jpg">
+                    <div class="layer">
+                        <h3>Wordpress Developer</h3>
+                        <p>The App connects you to the talented people around the world.
+                            Download it from playdtore </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                </div>
+                <div class="work">
+                    <img src="images/Research anaylsis.jpg">
+                    <div class="layer">
+                        <h3>Reasearch Analysis</h3>
+                        <p>Get an understanding on what you'd want for your businesss.Have all the information you need before starting </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------------contact---->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>mamrembiu@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0759775487</p>
+                        <div class="social-icons">
+                            <div>
+                                <a href="https://www.instagram.com/it_s.ma_mrema/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/teresia-mamrema-341a52238/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                                <a href="https://twitter.com/your_twitter_handle" target="_blank"></a>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                </div>       
+                            
+                        </div>
+                        <a href="images/Teresia_Mamrema_Mbiu.pdf"download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+                    <span id ="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ 2024 Mamrema Mbiu Portfolio</p>
+        </div>
+    </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+    }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classlist.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="200";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxNHCoBK9pYyN6c43JnnjkS3W2_XgjoKBNTHpvvcxAOXt7vjEbpYxi5UlkdO0ERk3Y-2g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
